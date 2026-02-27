@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T07:47:59+09:00",
+  "updatedAt": "2026-02-28T07:50:01+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -8,7 +8,7 @@
       "status": "running",
       "currentTask": "작업 중...",
       "lastCommit": "feat: 대운 시기별 상세 분석 아코디언 추가",
-      "lastCommitTime": "2026-02-28T07:46:47+09:00"
+      "lastCommitTime": "2026-02-28T07:48:32+09:00"
     },
     {
       "id": "cael",
@@ -80,6 +80,13 @@
       "agentName": "빌라드",
       "agentEmoji": "👑",
       "message": "feat: 대운 시기별 상세 분석 아코디언 추가",
+      "time": "2026-02-28T07:48:32+09:00"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "feat: 대운 시기별 상세 분석 아코디언 추가",
       "time": "2026-02-28T07:46:47+09:00"
     },
     {
@@ -102,13 +109,6 @@
       "agentEmoji": "👑",
       "message": "ci: force redeploy — 전체 감명 제거 반영",
       "time": "2026-02-28T02:53:32+09:00"
-    },
-    {
-      "agentId": "bilard",
-      "agentName": "빌라드",
-      "agentEmoji": "👑",
-      "message": "deploy: remove 전체 감명 section",
-      "time": "2026-02-28T02:31:26+09:00"
     }
   ],
   "deployUrl": "https://fourpillars-eosin.vercel.app",
