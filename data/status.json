@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T08:00:10+09:00",
+  "updatedAt": "2026-02-28T08:02:11+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -32,8 +32,8 @@
       "id": "dorian",
       "name": "도리안",
       "emoji": "📊",
-      "status": "running",
-      "currentTask": "작업 중...",
+      "status": "done",
+      "currentTask": "대기 중",
       "lastCommit": null,
       "lastCommitTime": null
     },
