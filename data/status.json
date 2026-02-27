@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T02:18:59+09:00",
+  "updatedAt": "2026-02-28T02:21:01+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -7,8 +7,8 @@
       "emoji": "👑",
       "status": "running",
       "currentTask": "작업 중...",
-      "lastCommit": "deploy: Momentor 결제 연동 prod 배포",
-      "lastCommitTime": "2026-02-28T02:11:36+09:00"
+      "lastCommit": "feat: remove premium content section — 전체 감명 콘텐츠 블록 제거, 결제 UI 유지",
+      "lastCommitTime": "2026-02-28T02:20:39+09:00"
     },
     {
       "id": "cael",
@@ -79,6 +79,13 @@
       "agentId": "bilard",
       "agentName": "빌라드",
       "agentEmoji": "👑",
+      "message": "feat: remove premium content section — 전체 감명 콘텐츠 블록 제거, 결제 UI 유지",
+      "time": "2026-02-28T02:20:39+09:00"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
       "message": "deploy: Momentor 결제 연동 prod 배포",
       "time": "2026-02-28T02:11:36+09:00"
     },
@@ -102,13 +109,6 @@
       "agentEmoji": "👑",
       "message": "fix: remove residual modal-features, polarity-sign, pillar-12-unsung",
       "time": "2026-02-27T17:40:42+09:00"
-    },
-    {
-      "agentId": "bilard",
-      "agentName": "빌라드",
-      "agentEmoji": "👑",
-      "message": "fix: card simplify + modal cleanup + birth hour unknown",
-      "time": "2026-02-27T17:37:53+09:00"
     }
   ],
   "deployUrl": "https://fourpillars-eosin.vercel.app",
