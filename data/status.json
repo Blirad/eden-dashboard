@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-02-27T21:04:51+09:00",
+  "updatedAt": "2026-02-28T00:27:21+09:00",
   "agents": [
     {
       "id": "bilard",
       "name": "빌라드",
       "emoji": "👑",
-      "status": "running",
+      "status": "done",
       "currentTask": "작업 중...",
-      "lastCommit": "content: accordion copy v4.2 — realistic style + environments frame",
-      "lastCommitTime": "2026-02-27T19:07:33+09:00"
+      "lastCommit": "feat: Lemon Squeezy 결제 연동 구현 (openPayModal, checkPaymentReturn, unlockPremiumContent, restorePremiumState)",
+      "lastCommitTime": "2026-02-28T00:21:03+09:00"
     },
     {
       "id": "cael",
       "name": "케일",
       "emoji": "🔨",
-      "status": "idle",
-      "currentTask": null,
+      "status": "done",
+      "currentTask": "작업 중...",
       "lastCommit": "fix: remove residual modal-features, polarity-sign, pillar-12-unsung",
       "lastCommitTime": "2026-02-27T18:30:00+09:00"
     },
@@ -59,7 +59,7 @@
       "id": "knox",
       "name": "녹스",
       "emoji": "⚙️",
-      "status": "running",
+      "status": "done",
       "currentTask": "작업 중...",
       "lastCommit": "feat: agent dashboard initial build",
       "lastCommitTime": "2026-02-27T19:48:00+09:00"
@@ -75,6 +75,13 @@
     }
   ],
   "recentLogs": [
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "feat: Lemon Squeezy 결제 연동 구현 (openPayModal, checkPaymentReturn, unlockPremiumContent, restorePremiumState)",
+      "time": "2026-02-28T00:21:03+09:00"
+    },
     {
       "agentId": "bilard",
       "agentName": "빌라드",
@@ -102,13 +109,6 @@
       "agentEmoji": "👑",
       "message": "feat: accordion preview + share card + western copy",
       "time": "2026-02-27T17:11:43+09:00"
-    },
-    {
-      "agentId": "bilard",
-      "agentName": "빌라드",
-      "agentEmoji": "👑",
-      "message": "ux: Lyra spec — accordion hierarchy + onboarding flow",
-      "time": "2026-02-27T16:25:24+09:00"
     }
   ],
   "deployUrl": "https://fourpillars-eosin.vercel.app",

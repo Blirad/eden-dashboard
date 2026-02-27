@@ -1,0 +1,446 @@
+[info] 활성 세션 에이전트: {'realestate', 'knox', 'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-py7geceb4-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'knox', 'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-fn46hhkgq-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'knox', 'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-l9h92mdbh-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'realestate', 'knox', 'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-cbhxoe3zb-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'realestate', 'main'}
+[ok] 상태 변경: ⚙️ 녹스 → done
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-g0wct0ti9-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'realestate', 'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-clv8knt76-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main', 'realestate'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-4b8dhgb00-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main', 'realestate'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-8mkhu4y9d-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'realestate'}
+[ok] 상태 변경: 👑 빌라드 → done
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-dsujjs8rf-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-qjhqnfse3-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-phbhzvjss-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-o5tlidgwc-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-r21oex59e-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-6pi0ippcb-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-hzb4thuh2-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-434rc6b1n-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-4pirjhlqk-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-c1cuelah4-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-2ic14yhaw-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-p35392gye-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-ex48m3vjo-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-bgo8ncwhy-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-47xcya0vq-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-61y7x6t58-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-5uv730wa0-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-c6oc4tnth-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-i7xmsr3qe-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-dk6kzz411-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-9cvtk0kze-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-qii16hc4p-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-3cph9xpzx-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-20t9q4wp1-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-kcbnuqdsd-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-5fp4s8sks-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-gkr9tfzw4-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-4is0aqaw4-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-azga1b9tx-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-fed7vc6m1-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-fb05zxdp7-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-ocmn3kbqy-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-e1no073zx-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-3aktfgne9-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-nwpqykuxq-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-5ge0qimlb-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-9utce9rsy-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-calgofip5-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-ndrm05fio-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-c5hunncsf-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-qilyaxuko-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-8lwrxc494-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-jaur2ptdx-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-1t9mqs5uc-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-oi3z0psw4-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-n9hjn1xr0-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-3f3ddc2gq-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-8zh9mc2xp-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-8x1y6lyz5-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-d2lzwmlpn-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-4hzv7hk57-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-4vhzyeuun-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-q9tkmtu6h-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-1s1va1e34-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-6ma0u5ldu-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-9lcc9j8o9-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-k78njov1s-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-jjnv56y5x-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-amgkh3z7t-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-f1lthpt6d-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-qj0w9bwos-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-qqn1lv8fq-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-ldhzxkni2-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-j7943hnkq-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-mtq18i0hk-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-l842fac2v-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-3nwby4f1c-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-j8uayxrkd-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-cquzqgtph-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-gvmmnom22-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-a2atci8rv-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-qjh8hn2gp-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-nma0gnlsm-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-8w0iyjgw7-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[ok] Vercel 배포 완료 https://dashboard-msxwe1qro-bilradk-8211s-projects.vercel.appVercel CLI 50.23.2
+[error] Vercel 배포 실패:
+Vercel CLI 50.23.2
+Retrieving project…
+Deploying bilradk-8211s-projects/dashboard
+Uploading [--------------------] (0.0B/23.6KB)
+Uploading [================----] (19.1KB/23.6KB)
+Uploading [====================] (23.6KB/23.6KB)
+Error: Resource is limited - try again in 12 hours (more than 100, code: 
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[error] Vercel 배포 실패:
+Vercel CLI 50.23.2
+Retrieving project…
+Deploying bilradk-8211s-projects/dashboard
+Uploading [--------------------] (0.0B/24.1KB)
+Uploading [===============-----] (19.1KB/24.1KB)
+Uploading [====================] (24.1KB/24.1KB)
+Error: Resource is limited - try again in 12 hours (more than 100, code: 
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[error] Vercel 배포 실패:
+Vercel CLI 50.23.2
+Retrieving project…
+Deploying bilradk-8211s-projects/dashboard
+Uploading [--------------------] (0.0B/24.6KB)
+Uploading [=============-------] (16.0KB/24.6KB)
+Uploading [=================---] (21.5KB/24.6KB)
+Uploading [====================] (24.6KB/24.6KB)
+Error: Resource is limit
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[error] Vercel 배포 실패:
+Vercel CLI 50.23.2
+Retrieving project…
+Deploying bilradk-8211s-projects/dashboard
+Uploading [--------------------] (0.0B/25KB)
+Uploading [===============-----] (19.1KB/25KB)
+Uploading [====================] (25.0KB/25KB)
+Error: Resource is limited - try again in 12 hours (more than 100, code: "api-d
+[info] 활성 세션 에이전트: set()
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[error] Vercel 배포 실패:
+Vercel CLI 50.23.2
+Retrieving project…
+Deploying bilradk-8211s-projects/dashboard
+Uploading [--------------------] (0.0B/25.5KB)
+Uploading [============--------] (16.0KB/25.5KB)
+Uploading [=================---] (22.4KB/25.5KB)
+Uploading [====================] (25.5KB/25.5KB)
+Error: Resource is limit
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[error] Vercel 배포 실패:
+Vercel CLI 50.23.2
+Retrieving project…
+Deploying bilradk-8211s-projects/dashboard
+Uploading [--------------------] (0.0B/26KB)
+Uploading [==============------] (19.1KB/26KB)
+Uploading [====================] (26.0KB/26KB)
+Error: Resource is limited - try again in 12 hours (more than 100, code: "api-d
+[info] 활성 세션 에이전트: {'main', 'knox'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[error] Vercel 배포 실패:
+Vercel CLI 50.23.2
+Retrieving project…
+Deploying bilradk-8211s-projects/dashboard
+Uploading [--------------------] (0.0B/26.6KB)
+Uploading [==============------] (19.2KB/26.6KB)
+Uploading [====================] (26.6KB/26.6KB)
+Error: Resource is limited - try again in 12 hours (more than 100, code: 
+[info] 활성 세션 에이전트: {'knox', 'main', 'cael'}
+[ok] 상태 변경: 🔨 케일 → running
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[error] Vercel 배포 실패:
+Vercel CLI 50.23.2
+Retrieving project…
+Deploying bilradk-8211s-projects/dashboard
+Uploading [--------------------] (0.0B/27.1KB)
+Uploading [==============------] (19.2KB/27.1KB)
+Uploading [====================] (27.1KB/27.1KB)
+Error: Resource is limited - try again in 12 hours (more than 100, code: 
+[info] 활성 세션 에이전트: {'knox', 'cael', 'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[error] Vercel 배포 실패:
+Vercel CLI 50.23.2
+Retrieving project…
+Deploying bilradk-8211s-projects/dashboard
+Uploading [--------------------] (0.0B/27.5KB)
+Uploading [===========---------] (16.0KB/27.5KB)
+Uploading [=================---] (24.4KB/27.5KB)
+Uploading [====================] (27.5KB/27.5KB)
+Error: Resource is limit
+[info] 활성 세션 에이전트: {'main', 'cael'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[error] Vercel 배포 실패:
+Vercel CLI 50.23.2
+Retrieving project…
+Deploying bilradk-8211s-projects/dashboard
+Uploading [--------------------] (0.0B/28KB)
+Uploading [===========---------] (16.0KB/28KB)
+Uploading [=================---] (24.9KB/28KB)
+Uploading [====================] (28.0KB/28KB)
+Error: Resource is limited - try
+[info] 활성 세션 에이전트: {'main'}
+[ok] 상태 변경: 🔨 케일 → done
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json

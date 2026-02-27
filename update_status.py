@@ -11,6 +11,12 @@ update_status.py — Agent Dashboard 상태 업데이트 스크립트
 상태값: running / done / idle
 agent_id 목록: bilard, cael, quinn, dorian, mira, lyra, knox, rex
 
+Next Up / Queue 관리:
+  python3 update_status.py --next-task '{"agentId":"cael","agentName":"케일","task":"작업명","eta":"5분"}'
+  python3 update_status.py --next-task null
+  python3 update_status.py --queue-add '{"order":1,"agentId":"quinn","agentName":"퀸","task":"QA","dependsOn":"cael","blocked":true}'
+  python3 update_status.py --queue-clear
+
 인자 없이 실행하면 git log만 갱신:
   python3 update_status.py
 """
@@ -44,10 +50,17 @@ def get_git_log(n=5):
                 continue
             parts = line.split("|", 2)
             if len(parts) == 3:
+                raw_time = parts[2].strip()
+                # ISO 8601 변환: "2026-02-27 19:07:33 +0900" → "2026-02-27T19:07:33+09:00"
+                try:
+                    dt = datetime.strptime(raw_time, "%Y-%m-%d %H:%M:%S %z")
+                    iso_time = dt.isoformat(timespec="seconds")
+                except ValueError:
+                    iso_time = raw_time
                 commits.append({
                     "hash": parts[0][:7],
                     "message": parts[1],
-                    "time": parts[2].strip()
+                    "time": iso_time
                 })
         return commits
     except Exception as e:
@@ -60,7 +73,7 @@ def load_status():
     if STATUS_FILE.exists():
         with open(STATUS_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
-    return {"agents": [], "recentLogs": [], "deployUrl": "https://fourpillars-eosin.vercel.app"}
+    return {"agents": [], "recentLogs": [], "deployUrl": "https://fourpillars-eosin.vercel.app", "nextTask": None, "queue": []}
 
 
 def save_status(data):
@@ -89,9 +102,31 @@ def build_recent_logs(commits):
 
 def main():
     args = sys.argv[1:]
-    agent_id = args[0] if len(args) > 0 else None
-    new_status = args[1] if len(args) > 1 else None
-    new_task = args[2] if len(args) > 2 else None
+
+    # ── flag parsing ──────────────────────────────────────────
+    next_task_flag = None
+    queue_add_flag = None
+    queue_clear_flag = False
+    positional = []
+
+    i = 0
+    while i < len(args):
+        if args[i] == '--next-task' and i + 1 < len(args):
+            next_task_flag = args[i + 1]
+            i += 2
+        elif args[i] == '--queue-add' and i + 1 < len(args):
+            queue_add_flag = args[i + 1]
+            i += 2
+        elif args[i] == '--queue-clear':
+            queue_clear_flag = True
+            i += 1
+        else:
+            positional.append(args[i])
+            i += 1
+
+    agent_id = positional[0] if len(positional) > 0 else None
+    new_status = positional[1] if len(positional) > 1 else None
+    new_task = positional[2] if len(positional) > 2 else None
 
     valid_statuses = {"running", "done", "idle"}
     if new_status and new_status not in valid_statuses:
@@ -99,6 +134,37 @@ def main():
         sys.exit(1)
 
     data = load_status()
+
+    # ── nextTask ──────────────────────────────────────────────
+    if next_task_flag is not None:
+        if next_task_flag.strip().lower() == 'null':
+            data['nextTask'] = None
+            print("[ok] nextTask → null (완료 처리)")
+        else:
+            try:
+                task_obj = json.loads(next_task_flag)
+                data['nextTask'] = task_obj
+                print(f"[ok] nextTask 설정: {task_obj.get('agentName')} — {task_obj.get('task')}")
+            except json.JSONDecodeError as e:
+                print(f"[error] --next-task JSON 파싱 실패: {e}")
+                sys.exit(1)
+
+    # ── queue-clear ───────────────────────────────────────────
+    if queue_clear_flag:
+        data['queue'] = []
+        print("[ok] queue 초기화")
+
+    # ── queue-add ─────────────────────────────────────────────
+    if queue_add_flag is not None:
+        try:
+            item = json.loads(queue_add_flag)
+            if 'queue' not in data:
+                data['queue'] = []
+            data['queue'].append(item)
+            print(f"[ok] queue 추가: {item.get('agentName')} — {item.get('task')}")
+        except json.JSONDecodeError as e:
+            print(f"[error] --queue-add JSON 파싱 실패: {e}")
+            sys.exit(1)
 
     # git log 갱신
     commits = get_git_log(10)

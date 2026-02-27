@@ -89,6 +89,22 @@
     .refresh-timer:hover { color: var(--text-secondary); }
     .refresh-timer.flash { color: var(--accent); }
 
+    .refresh-btn {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-secondary);
+      font-size: 14px;
+      padding: 2px 7px;
+      cursor: pointer;
+      transition: border-color 0.2s, color 0.2s;
+      line-height: 1.4;
+    }
+    .refresh-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
     /* ─── CONTENT ─── */
     .dashboard-content {
       max-width: 1200px;
@@ -310,76 +326,6 @@
       font-style: italic;
     }
 
-    /* ─── LOG FEED ─── */
-    .log-list {
-      list-style: none;
-      border-left: 1px solid var(--border);
-      margin-left: 8px;
-    }
-
-    .log-item {
-      position: relative;
-      padding: 9px 12px 9px 20px;
-      display: flex;
-      align-items: flex-start;
-      transition: background 0.15s;
-      border-radius: 0 8px 8px 0;
-    }
-
-    .log-item:hover { background: var(--bg-hover); }
-
-    .log-dot {
-      position: absolute;
-      left: -5px;
-      top: 13px;
-      width: 9px;
-      height: 9px;
-      border-radius: 50%;
-      background: var(--bg-base);
-      border: 2px solid var(--accent);
-      flex-shrink: 0;
-    }
-
-    .log-item[data-agent="bilard"]  .log-dot { border-color: #c084fc; }
-    .log-item[data-agent="cael"]    .log-dot { border-color: var(--status-running); }
-    .log-item[data-agent="quinn"]   .log-dot { border-color: var(--status-done); }
-    .log-item[data-agent="dorian"]  .log-dot { border-color: #60a5fa; }
-    .log-item[data-agent="mira"]    .log-dot { border-color: #f472b6; }
-    .log-item[data-agent="lyra"]    .log-dot { border-color: var(--accent); }
-    .log-item[data-agent="knox"]    .log-dot { border-color: #94a3b8; }
-    .log-item[data-agent="rex"]     .log-dot { border-color: #fb923c; }
-
-    .log-content { flex: 1; min-width: 0; }
-
-    .log-main {
-      display: flex;
-      align-items: baseline;
-      gap: 7px;
-      flex-wrap: wrap;
-    }
-
-    .log-agent-name {
-      font-size: 12px;
-      font-weight: 700;
-      color: var(--text-primary);
-      flex-shrink: 0;
-    }
-
-    .log-message {
-      font-size: 12px;
-      color: var(--text-secondary);
-      font-family: var(--font-mono);
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    .log-meta {
-      font-size: 10px;
-      color: var(--text-muted);
-      margin-top: 2px;
-    }
-
     /* ─── DEPLOY LINKS ─── */
     .deploy-list {
       display: flex;
@@ -445,6 +391,143 @@
 
     .deploy-item:hover .deploy-arrow { transform: translate(2px, -2px); }
 
+    /* ─── NEXT UP ─── */
+    .next-up-section { margin-top: 32px; }
+
+    .next-up-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--accent);
+      border-radius: 12px;
+      padding: 16px 18px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      position: relative;
+    }
+
+    .next-up-card::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 12px; bottom: 12px;
+      width: 3px;
+      background: var(--accent);
+      border-radius: 99px;
+    }
+
+    .next-up-agent {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      min-width: 72px;
+    }
+
+    .next-up-agent .agent-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .next-up-task {
+      flex: 1;
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+
+    .next-up-eta {
+      font-size: 12px;
+      color: var(--accent);
+      font-family: var(--font-mono);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .empty-state {
+      font-size: 13px;
+      color: var(--text-muted);
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    /* ─── QUEUE ─── */
+    .queue-section { margin-top: 32px; }
+
+    .queue-count {
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--text-muted);
+      margin-left: 6px;
+      font-family: var(--font-mono);
+    }
+
+    .queue-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--bg-surface);
+      margin-bottom: 8px;
+      transition: border-color 0.2s;
+    }
+
+    .queue-item:hover { border-color: var(--border-glow); }
+
+    .queue-item.blocked { opacity: 0.5; }
+
+    .queue-index {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+      min-width: 22px;
+      padding-top: 1px;
+    }
+
+    .queue-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .queue-main {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .queue-agent {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-primary);
+      white-space: nowrap;
+    }
+
+    .queue-task {
+      font-size: 13px;
+      color: var(--text-secondary);
+    }
+
+    .queue-dep {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .queue-dep.independent { color: var(--status-done); opacity: 0.8; }
+
+    .queue-blocked-label {
+      font-size: 10px;
+      color: var(--status-waiting);
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 99px;
+      padding: 1px 7px;
+      margin-left: 6px;
+    }
+
     /* ─── FOOTER ─── */
     .dashboard-footer {
       display: flex;
@@ -481,7 +564,8 @@
     <div class="header-meta">
       <span class="running-badge" id="running-count">실행중 0</span>
       <span class="updated-at-badge" id="updated-at-badge"></span>
-      <span class="refresh-timer" id="refresh-timer" title="클릭하면 지금 바로 새로고침">⟳ 30s</span>
+      <span class="refresh-timer" id="refresh-timer">⟳ 30s</span>
+      <button class="refresh-btn" id="refresh-btn" title="지금 바로 갱신">🔄</button>
     </div>
   </header>
 
@@ -498,15 +582,20 @@
       </div>
     </div>
 
-    <!-- LOG FEED -->
-    <div class="section">
-      <p class="section-title">📋 활동 로그</p>
-      <ul class="log-list" id="log-list">
-        <li class="loading-state">
-          <div class="loading-spinner"></div>
-          <span>데이터 로딩 중...</span>
-        </li>
-      </ul>
+    <!-- NEXT UP -->
+    <div class="section next-up-section">
+      <p class="section-title">▶ NEXT UP</p>
+      <div id="next-up-container">
+        <div class="loading-state"><div class="loading-spinner"></div><span>데이터 로딩 중...</span></div>
+      </div>
+    </div>
+
+    <!-- QUEUE -->
+    <div class="section queue-section">
+      <p class="section-title">≡ QUEUE <span class="queue-count" id="queue-count"></span></p>
+      <div id="queue-container">
+        <div class="loading-state"><div class="loading-spinner"></div><span>데이터 로딩 중...</span></div>
+      </div>
     </div>
 
     <!-- DEPLOY LINKS -->
@@ -543,6 +632,7 @@
       if (!isoStr) return null;
       try {
         const d = new Date(isoStr);
+        if (isNaN(d.getTime())) return isoStr;
         const diffMs = Date.now() - d.getTime();
         const diffMin = Math.round(diffMs / 60000);
         if (diffMin < 1) return '방금 전';
@@ -550,7 +640,7 @@
         const h = Math.floor(diffMin / 60);
         const m = diffMin % 60;
         return m > 0 ? `${h}시간 ${m}분 전` : `${h}시간 전`;
-      } catch { return null; }
+      } catch { return isoStr; }
     }
 
     function formatUpdatedAt(isoStr) {
@@ -622,41 +712,47 @@
       document.getElementById('running-count').textContent = `실행중 ${runningCount}`;
     }
 
-    function renderLogFeed(logs, agents) {
-      const list = document.getElementById('log-list');
-
-      // logs가 없으면 agents에서 lastCommit 있는 것으로 fallback
-      let entries = logs && logs.length > 0
-        ? logs
-        : (agents || [])
-            .filter(a => a.lastCommit)
-            .sort((a, b) => new Date(b.lastCommitTime || 0) - new Date(a.lastCommitTime || 0))
-            .map(a => ({
-              agentId: a.id,
-              agentName: a.name,
-              agentEmoji: a.emoji,
-              message: a.lastCommit,
-              time: a.lastCommitTime
-            }));
-
-      if (entries.length === 0) {
-        list.innerHTML = '<li class="loading-state"><span>로그 없음</span></li>';
+    function renderNextUp(nextTask) {
+      const container = document.getElementById('next-up-container');
+      if (!nextTask) {
+        container.innerHTML = `<p class="empty-state">현재 대기 중인 작업 없음</p>`;
         return;
       }
+      container.innerHTML = `
+        <div class="next-up-card">
+          <div class="next-up-agent">
+            <span>${esc(nextTask.agentEmoji || '')}</span>
+            <span class="agent-name">${esc(nextTask.agentName)}</span>
+          </div>
+          <div class="next-up-task">${esc(nextTask.task || nextTask.taskName || '')}</div>
+          ${nextTask.eta ? `<div class="next-up-eta">~${esc(nextTask.eta)}</div>` : ''}
+        </div>`;
+    }
 
-      list.innerHTML = entries.map(entry => {
-        const relTime = formatRelativeTime(entry.time);
+    function renderQueue(queue) {
+      const container = document.getElementById('queue-container');
+      const countEl = document.getElementById('queue-count');
+      if (!queue || queue.length === 0) {
+        countEl.textContent = '';
+        container.innerHTML = `<p class="empty-state">모든 작업이 완료되었거나 실행 중입니다</p>`;
+        return;
+      }
+      countEl.textContent = `(${queue.length})`;
+      container.innerHTML = queue.map((item, i) => {
+        const depHtml = item.dependsOn
+          ? `<div class="queue-dep">─ ${esc(item.dependsOn)} 완료 후${item.blocked ? '<span class="queue-blocked-label">선행 작업 대기 중</span>' : ''}</div>`
+          : `<div class="queue-dep independent">─ 독립 실행 가능</div>`;
         return `
-          <li class="log-item" data-agent="${esc(entry.agentId)}">
-            <span class="log-dot"></span>
-            <div class="log-content">
-              <div class="log-main">
-                <span class="log-agent-name">${esc(entry.agentEmoji)} ${esc(entry.agentName)}</span>
-                <span class="log-message">${esc(entry.message)}</span>
+          <div class="queue-item ${item.blocked ? 'blocked' : ''}">
+            <span class="queue-index">${String(item.order || i + 1).padStart(2, '0')}</span>
+            <div class="queue-body">
+              <div class="queue-main">
+                <span class="queue-agent">${esc(item.agentEmoji || '')} ${esc(item.agentName)}</span>
+                <span class="queue-task">${esc(item.task || item.taskName || '')}</span>
               </div>
-              ${relTime ? `<div class="log-meta"><time>${relTime}</time></div>` : ''}
+              ${depHtml}
             </div>
-          </li>`;
+          </div>`;
       }).join('');
     }
 
@@ -677,7 +773,8 @@
 
     function renderAll(data) {
       renderAgentCards(data.agents);
-      renderLogFeed(data.recentLogs, data.agents);
+      renderNextUp(data.nextTask);
+      renderQueue(data.queue);
       renderDeployLinks(data.deployUrl);
 
       // updatedAt 표시
@@ -694,7 +791,6 @@
     function showLoadingError() {
       const msg = '<div class="loading-state"><span>데이터 로딩 중...</span></div>';
       document.getElementById('agent-grid').innerHTML = msg;
-      document.getElementById('log-list').innerHTML = `<li>${msg}</li>`;
       document.getElementById('deploy-list').innerHTML = msg;
     }
 
@@ -733,6 +829,12 @@
     }
 
     document.getElementById('refresh-timer').addEventListener('click', () => {
+      countdown = REFRESH_INTERVAL;
+      fetchStatus();
+      flashTimer();
+    });
+
+    document.getElementById('refresh-btn').addEventListener('click', () => {
       countdown = REFRESH_INTERVAL;
       fetchStatus();
       flashTimer();
