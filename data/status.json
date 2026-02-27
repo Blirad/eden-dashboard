@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T02:31:14+09:00",
+  "updatedAt": "2026-02-28T02:33:15+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -7,8 +7,8 @@
       "emoji": "👑",
       "status": "running",
       "currentTask": "작업 중...",
-      "lastCommit": "feat: remove premium content section — 전체 감명 콘텐츠 블록 제거, 결제 UI 유지",
-      "lastCommitTime": "2026-02-28T02:20:39+09:00"
+      "lastCommit": "deploy: remove 전체 감명 section",
+      "lastCommitTime": "2026-02-28T02:31:26+09:00"
     },
     {
       "id": "cael",
@@ -59,8 +59,8 @@
       "id": "knox",
       "name": "녹스",
       "emoji": "⚙️",
-      "status": "done",
-      "currentTask": "대기 중",
+      "status": "running",
+      "currentTask": "작업 중...",
       "lastCommit": "chore: auto status update 2026-02-28 01:12",
       "lastCommitTime": "2026-02-28 01:12:07 +0900"
     },
@@ -75,6 +75,13 @@
     }
   ],
   "recentLogs": [
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "deploy: remove 전체 감명 section",
+      "time": "2026-02-28T02:31:26+09:00"
+    },
     {
       "agentId": "bilard",
       "agentName": "빌라드",
@@ -102,13 +109,6 @@
       "agentEmoji": "👑",
       "message": "content: accordion copy v4.2 — realistic style + environments frame",
       "time": "2026-02-27T19:07:33+09:00"
-    },
-    {
-      "agentId": "bilard",
-      "agentName": "빌라드",
-      "agentEmoji": "👑",
-      "message": "fix: remove residual modal-features, polarity-sign, pillar-12-unsung",
-      "time": "2026-02-27T17:40:42+09:00"
     }
   ],
   "deployUrl": "https://fourpillars-eosin.vercel.app",
