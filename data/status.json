@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T07:54:05+09:00",
+  "updatedAt": "2026-02-28T07:56:06+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -7,8 +7,8 @@
       "emoji": "👑",
       "status": "running",
       "currentTask": "작업 중...",
-      "lastCommit": "feat: 대운 시기별 상세 분석 아코디언 추가",
-      "lastCommitTime": "2026-02-28T07:48:32+09:00"
+      "lastCommit": "fix: AppState.lang 오타 → AppState.language 수정 (Quinn 지적)",
+      "lastCommitTime": "2026-02-28T07:55:33+09:00"
     },
     {
       "id": "cael",
@@ -23,8 +23,8 @@
       "id": "quinn",
       "name": "퀸",
       "emoji": "🔍",
-      "status": "done",
-      "currentTask": "대기 중",
+      "status": "running",
+      "currentTask": "작업 중...",
       "lastCommit": null,
       "lastCommitTime": null
     },
@@ -79,6 +79,13 @@
       "agentId": "bilard",
       "agentName": "빌라드",
       "agentEmoji": "👑",
+      "message": "fix: AppState.lang 오타 → AppState.language 수정 (Quinn 지적)",
+      "time": "2026-02-28T07:55:33+09:00"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
       "message": "feat: 대운 시기별 상세 분석 아코디언 추가",
       "time": "2026-02-28T07:48:32+09:00"
     },
@@ -102,13 +109,6 @@
       "agentEmoji": "👑",
       "message": "fix: 전체 감명 완전 제거 — renderPaidSections/i18n/modal 잔재 모두 삭제",
       "time": "2026-02-28T03:12:50+09:00"
-    },
-    {
-      "agentId": "bilard",
-      "agentName": "빌라드",
-      "agentEmoji": "👑",
-      "message": "ci: force redeploy — 전체 감명 제거 반영",
-      "time": "2026-02-28T02:53:32+09:00"
     }
   ],
   "deployUrl": "https://fourpillars-eosin.vercel.app",
