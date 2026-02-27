@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T02:39:21+09:00",
+  "updatedAt": "2026-02-28T02:41:23+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -59,8 +59,8 @@
       "id": "knox",
       "name": "녹스",
       "emoji": "⚙️",
-      "status": "running",
-      "currentTask": "작업 중...",
+      "status": "done",
+      "currentTask": "대기 중",
       "lastCommit": "chore: auto status update 2026-02-28 01:12",
       "lastCommitTime": "2026-02-28 01:12:07 +0900"
     },
