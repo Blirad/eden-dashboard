@@ -205,16 +205,22 @@ def main():
         # 현재 상태가 이미 적절하면 건드리지 않음
         current_status = agent.get("status", "idle")
 
-        if is_active and current_status == "idle":
-            # idle → running 자동 전환
+        if is_active and current_status in ("idle", "done"):
+            # idle/done → running 자동 전환
             agent["status"] = "running"
-            if not agent.get("currentTask"):
+            if not agent.get("currentTask") or agent.get("currentTask") in ("대기 중", None):
                 agent["currentTask"] = "작업 중..."
             changed_agents.append(f"{agent['emoji']} {agent['name']} → running")
         elif not is_active and current_status == "running":
             # running → done 전환 (세션이 사라지면 완료 처리)
             agent["status"] = "done"
+            agent["currentTask"] = "대기 중"
             changed_agents.append(f"{agent['emoji']} {agent['name']} → done")
+        elif not is_active and current_status == "done":
+            # done 상태에서 "작업 중..." 남아있으면 초기화
+            if agent.get("currentTask") == "작업 중...":
+                agent["currentTask"] = "대기 중"
+                changed_agents.append(f"{agent['emoji']} {agent['name']} currentTask 초기화")
 
     if changed_agents:
         print(f"[ok] 상태 변경: {', '.join(changed_agents)}")
