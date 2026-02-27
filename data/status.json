@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T03:11:50+09:00",
+  "updatedAt": "2026-02-28T03:13:52+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -7,8 +7,8 @@
       "emoji": "👑",
       "status": "running",
       "currentTask": "작업 중...",
-      "lastCommit": "ci: force redeploy — 전체 감명 제거 반영",
-      "lastCommitTime": "2026-02-28T02:53:32+09:00"
+      "lastCommit": "fix: 전체 감명 완전 제거 — renderPaidSections/i18n/modal 잔재 모두 삭제",
+      "lastCommitTime": "2026-02-28T03:12:50+09:00"
     },
     {
       "id": "cael",
@@ -79,6 +79,13 @@
       "agentId": "bilard",
       "agentName": "빌라드",
       "agentEmoji": "👑",
+      "message": "fix: 전체 감명 완전 제거 — renderPaidSections/i18n/modal 잔재 모두 삭제",
+      "time": "2026-02-28T03:12:50+09:00"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
       "message": "ci: force redeploy — 전체 감명 제거 반영",
       "time": "2026-02-28T02:53:32+09:00"
     },
@@ -102,13 +109,6 @@
       "agentEmoji": "👑",
       "message": "deploy: Momentor 결제 연동 prod 배포",
       "time": "2026-02-28T02:11:36+09:00"
-    },
-    {
-      "agentId": "bilard",
-      "agentName": "빌라드",
-      "agentEmoji": "👑",
-      "message": "feat: Lemon Squeezy 결제 연동 구현 (openPayModal, checkPaymentReturn, unlockPremiumContent, restorePremiumState)",
-      "time": "2026-02-28T00:21:03+09:00"
     }
   ],
   "deployUrl": "https://fourpillars-eosin.vercel.app",
