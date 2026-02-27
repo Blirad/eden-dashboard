@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-28T08:42:48+09:00",
+  "updatedAt": "2026-02-28T08:44:50+09:00",
   "agents": [
     {
       "id": "bilard",
       "name": "빌라드",
       "emoji": "👑",
-      "status": "done",
-      "currentTask": "대기 중",
+      "status": "running",
+      "currentTask": "작업 중...",
       "lastCommit": "copy: Mira 한국어 카피 강화 v1",
       "lastCommitTime": "2026-02-28T07:56:57+09:00"
     },
