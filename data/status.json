@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-28T02:49:30+09:00",
+  "updatedAt": "2026-02-28T02:51:32+09:00",
   "agents": [
     {
       "id": "bilard",
       "name": "빌라드",
       "emoji": "👑",
-      "status": "done",
-      "currentTask": "대기 중",
+      "status": "running",
+      "currentTask": "작업 중...",
       "lastCommit": "deploy: remove 전체 감명 section",
       "lastCommitTime": "2026-02-28T02:31:26+09:00"
     },
