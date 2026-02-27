@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T03:03:43+09:00",
+  "updatedAt": "2026-02-28T03:05:45+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -14,8 +14,8 @@
       "id": "cael",
       "name": "케일",
       "emoji": "🔨",
-      "status": "running",
-      "currentTask": "작업 중...",
+      "status": "done",
+      "currentTask": "대기 중",
       "lastCommit": "fix: remove residual modal-features, polarity-sign, pillar-12-unsung",
       "lastCommitTime": "2026-02-27T18:30:00+09:00"
     },
