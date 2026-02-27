@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-28T02:27:07+09:00",
+  "updatedAt": "2026-02-28T02:29:12+09:00",
   "agents": [
     {
       "id": "bilard",
       "name": "빌라드",
       "emoji": "👑",
-      "status": "running",
-      "currentTask": "작업 중...",
+      "status": "done",
+      "currentTask": "대기 중",
       "lastCommit": "feat: remove premium content section — 전체 감명 콘텐츠 블록 제거, 결제 UI 유지",
       "lastCommitTime": "2026-02-28T02:20:39+09:00"
     },
