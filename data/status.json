@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T07:45:57+09:00",
+  "updatedAt": "2026-02-28T07:47:59+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -7,8 +7,8 @@
       "emoji": "👑",
       "status": "running",
       "currentTask": "작업 중...",
-      "lastCommit": "copy: Mira 영어 카피 강화 v1",
-      "lastCommitTime": "2026-02-28T07:44:31+09:00"
+      "lastCommit": "feat: 대운 시기별 상세 분석 아코디언 추가",
+      "lastCommitTime": "2026-02-28T07:46:47+09:00"
     },
     {
       "id": "cael",
@@ -79,6 +79,13 @@
       "agentId": "bilard",
       "agentName": "빌라드",
       "agentEmoji": "👑",
+      "message": "feat: 대운 시기별 상세 분석 아코디언 추가",
+      "time": "2026-02-28T07:46:47+09:00"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
       "message": "copy: Mira 영어 카피 강화 v1",
       "time": "2026-02-28T07:44:31+09:00"
     },
@@ -102,13 +109,6 @@
       "agentEmoji": "👑",
       "message": "deploy: remove 전체 감명 section",
       "time": "2026-02-28T02:31:26+09:00"
-    },
-    {
-      "agentId": "bilard",
-      "agentName": "빌라드",
-      "agentEmoji": "👑",
-      "message": "feat: remove premium content section — 전체 감명 콘텐츠 블록 제거, 결제 UI 유지",
-      "time": "2026-02-28T02:20:39+09:00"
     }
   ],
   "deployUrl": "https://fourpillars-eosin.vercel.app",
