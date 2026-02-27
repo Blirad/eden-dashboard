@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-02-28T02:10:49+09:00",
+  "updatedAt": "2026-02-28T02:12:51+09:00",
   "agents": [
     {
       "id": "bilard",
       "name": "빌라드",
       "emoji": "👑",
-      "status": "done",
-      "currentTask": "대기 중",
-      "lastCommit": "feat: Lemon Squeezy 결제 연동 구현 (openPayModal, checkPaymentReturn, unlockPremiumContent, restorePremiumState)",
-      "lastCommitTime": "2026-02-28T00:21:03+09:00"
+      "status": "running",
+      "currentTask": "작업 중...",
+      "lastCommit": "deploy: Momentor 결제 연동 prod 배포",
+      "lastCommitTime": "2026-02-28T02:11:36+09:00"
     },
     {
       "id": "cael",
@@ -79,6 +79,13 @@
       "agentId": "bilard",
       "agentName": "빌라드",
       "agentEmoji": "👑",
+      "message": "deploy: Momentor 결제 연동 prod 배포",
+      "time": "2026-02-28T02:11:36+09:00"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
       "message": "feat: Lemon Squeezy 결제 연동 구현 (openPayModal, checkPaymentReturn, unlockPremiumContent, restorePremiumState)",
       "time": "2026-02-28T00:21:03+09:00"
     },
@@ -102,13 +109,6 @@
       "agentEmoji": "👑",
       "message": "fix: card simplify + modal cleanup + birth hour unknown",
       "time": "2026-02-27T17:37:53+09:00"
-    },
-    {
-      "agentId": "bilard",
-      "agentName": "빌라드",
-      "agentEmoji": "👑",
-      "message": "feat: accordion preview + share card + western copy",
-      "time": "2026-02-27T17:11:43+09:00"
     }
   ],
   "deployUrl": "https://fourpillars-eosin.vercel.app",
