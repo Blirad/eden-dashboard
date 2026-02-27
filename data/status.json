@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-02-27T19:50:48+09:00",
+  "updatedAt": "2026-02-27T21:04:51+09:00",
   "agents": [
     {
       "id": "bilard",
       "name": "빌라드",
       "emoji": "👑",
-      "status": "idle",
-      "currentTask": null,
+      "status": "running",
+      "currentTask": "작업 중...",
       "lastCommit": "content: accordion copy v4.2 — realistic style + environments frame",
-      "lastCommitTime": "2026-02-27 19:07:33 +0900"
+      "lastCommitTime": "2026-02-27T19:07:33+09:00"
     },
     {
       "id": "cael",
@@ -60,7 +60,7 @@
       "name": "녹스",
       "emoji": "⚙️",
       "status": "running",
-      "currentTask": "에이전트 대시보드 Phase 2 실데이터 연동 중",
+      "currentTask": "작업 중...",
       "lastCommit": "feat: agent dashboard initial build",
       "lastCommitTime": "2026-02-27T19:48:00+09:00"
     },
@@ -80,36 +80,38 @@
       "agentName": "빌라드",
       "agentEmoji": "👑",
       "message": "content: accordion copy v4.2 — realistic style + environments frame",
-      "time": "2026-02-27 19:07:33 +0900"
+      "time": "2026-02-27T19:07:33+09:00"
     },
     {
       "agentId": "bilard",
       "agentName": "빌라드",
       "agentEmoji": "👑",
       "message": "fix: remove residual modal-features, polarity-sign, pillar-12-unsung",
-      "time": "2026-02-27 17:40:42 +0900"
+      "time": "2026-02-27T17:40:42+09:00"
     },
     {
       "agentId": "bilard",
       "agentName": "빌라드",
       "agentEmoji": "👑",
       "message": "fix: card simplify + modal cleanup + birth hour unknown",
-      "time": "2026-02-27 17:37:53 +0900"
+      "time": "2026-02-27T17:37:53+09:00"
     },
     {
       "agentId": "bilard",
       "agentName": "빌라드",
       "agentEmoji": "👑",
       "message": "feat: accordion preview + share card + western copy",
-      "time": "2026-02-27 17:11:43 +0900"
+      "time": "2026-02-27T17:11:43+09:00"
     },
     {
       "agentId": "bilard",
       "agentName": "빌라드",
       "agentEmoji": "👑",
       "message": "ux: Lyra spec — accordion hierarchy + onboarding flow",
-      "time": "2026-02-27 16:25:24 +0900"
+      "time": "2026-02-27T16:25:24+09:00"
     }
   ],
-  "deployUrl": "https://fourpillars-eosin.vercel.app"
+  "deployUrl": "https://fourpillars-eosin.vercel.app",
+  "nextTask": null,
+  "queue": []
 }
