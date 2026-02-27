@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T02:51:32+09:00",
+  "updatedAt": "2026-02-28T02:53:34+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -7,8 +7,8 @@
       "emoji": "👑",
       "status": "running",
       "currentTask": "작업 중...",
-      "lastCommit": "deploy: remove 전체 감명 section",
-      "lastCommitTime": "2026-02-28T02:31:26+09:00"
+      "lastCommit": "ci: force redeploy — 전체 감명 제거 반영",
+      "lastCommitTime": "2026-02-28T02:53:32+09:00"
     },
     {
       "id": "cael",
@@ -79,6 +79,13 @@
       "agentId": "bilard",
       "agentName": "빌라드",
       "agentEmoji": "👑",
+      "message": "ci: force redeploy — 전체 감명 제거 반영",
+      "time": "2026-02-28T02:53:32+09:00"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
       "message": "deploy: remove 전체 감명 section",
       "time": "2026-02-28T02:31:26+09:00"
     },
@@ -102,13 +109,6 @@
       "agentEmoji": "👑",
       "message": "feat: Lemon Squeezy 결제 연동 구현 (openPayModal, checkPaymentReturn, unlockPremiumContent, restorePremiumState)",
       "time": "2026-02-28T00:21:03+09:00"
-    },
-    {
-      "agentId": "bilard",
-      "agentName": "빌라드",
-      "agentEmoji": "👑",
-      "message": "content: accordion copy v4.2 — realistic style + environments frame",
-      "time": "2026-02-27T19:07:33+09:00"
     }
   ],
   "deployUrl": "https://fourpillars-eosin.vercel.app",
