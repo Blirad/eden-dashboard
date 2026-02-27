@@ -134,30 +134,29 @@ def now_kst():
 
 
 def deploy_vercel():
-    """Vercel CLI로 직접 배포 (git remote 불필요)"""
-    vercel_bin = Path.home() / ".npm-global/bin/vercel"
-    if not vercel_bin.exists():
-        vercel_bin = Path("/usr/local/bin/vercel")
+    """git push로 Vercel 자동 배포 트리거 (GitHub 연동)"""
     try:
+        # git add & commit & push
+        subprocess.run(["git", "add", "-A"], cwd=str(SCRIPT_DIR), capture_output=True)
         result = subprocess.run(
-            [str(vercel_bin), "--prod", "--yes"],
-            capture_output=True, text=True, timeout=60,
-            cwd=str(SCRIPT_DIR)
+            ["git", "commit", "-m", f"chore: auto status update {datetime.now(KST).strftime('%Y-%m-%d %H:%M')}"],
+            capture_output=True, text=True, cwd=str(SCRIPT_DIR)
         )
-        if result.returncode == 0:
-            # 배포 URL 추출
-            lines = (result.stdout + result.stderr).splitlines()
-            url = next((l.strip() for l in lines if "vercel.app" in l), "")
-            print(f"[ok] Vercel 배포 완료 {url}")
+        if "nothing to commit" in result.stdout + result.stderr:
+            print("[info] 변경사항 없음 — push 생략")
+            return True
+        push = subprocess.run(
+            ["git", "push"],
+            capture_output=True, text=True, timeout=30, cwd=str(SCRIPT_DIR)
+        )
+        if push.returncode == 0:
+            print("[ok] git push 완료 → Vercel 자동 배포 트리거")
             return True
         else:
-            print(f"[error] Vercel 배포 실패:\n{result.stderr[:300]}", file=sys.stderr)
+            print(f"[error] git push 실패: {push.stderr[:200]}", file=sys.stderr)
             return False
-    except subprocess.TimeoutExpired:
-        print("[error] Vercel 배포 타임아웃", file=sys.stderr)
-        return False
     except Exception as e:
-        print(f"[error] Vercel 배포 오류: {e}", file=sys.stderr)
+        print(f"[error] 배포 오류: {e}", file=sys.stderr)
         return False
 
 

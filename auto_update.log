@@ -444,3 +444,25 @@ Error: Resource is limited - try
 [info] 활성 세션 에이전트: {'main'}
 [ok] 상태 변경: 🔨 케일 → done
 [ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[error] Vercel 배포 실패:
+Vercel CLI 50.23.2
+Retrieving project…
+Deploying bilradk-8211s-projects/dashboard
+Uploading [--------------------] (0.0B/28.5KB)
+Uploading [=============-------] (19.2KB/28.5KB)
+Uploading [====================] (28.5KB/28.5KB)
+Error: Resource is limited - try again in 12 hours (more than 100, code: 
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
+[error] Vercel 배포 실패:
+Vercel CLI 50.23.2
+Retrieving project…
+Deploying bilradk-8211s-projects/dashboard
+Uploading [--------------------] (0.0B/29KB)
+Uploading [=============-------] (19.2KB/29KB)
+Uploading [====================] (29.0KB/29KB)
+Error: Resource is limited - try again in 12 hours (more than 100, code: "api-d
+[info] 활성 세션 에이전트: {'main'}
+[info] 상태 변경 없음
+[ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
