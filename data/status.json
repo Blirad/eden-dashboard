@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-28T00:32:51+09:00",
+  "updatedAt": "2026-02-28T00:33:01+09:00",
   "agents": [
     {
       "id": "bilard",
       "name": "빌라드",
       "emoji": "👑",
-      "status": "done",
-      "currentTask": "작업 중...",
+      "status": "running",
+      "currentTask": "대기 중",
       "lastCommit": "feat: Lemon Squeezy 결제 연동 구현 (openPayModal, checkPaymentReturn, unlockPremiumContent, restorePremiumState)",
       "lastCommitTime": "2026-02-28T00:21:03+09:00"
     },
@@ -59,8 +59,8 @@
       "id": "knox",
       "name": "녹스",
       "emoji": "⚙️",
-      "status": "done",
-      "currentTask": "작업 중...",
+      "status": "idle",
+      "currentTask": "대기 중",
       "lastCommit": "feat: agent dashboard initial build",
       "lastCommitTime": "2026-02-27T19:48:00+09:00"
     },
