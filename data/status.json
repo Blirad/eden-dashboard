@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T01:10:05+09:00",
+  "updatedAt": "2026-02-28T01:12:07+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -59,7 +59,7 @@
       "id": "knox",
       "name": "녹스",
       "emoji": "⚙️",
-      "status": "idle",
+      "status": "running",
       "currentTask": "대기 중",
       "lastCommit": "feat: agent dashboard initial build",
       "lastCommitTime": "2026-02-27T19:48:00+09:00"
