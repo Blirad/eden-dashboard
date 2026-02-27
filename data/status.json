@@ -1,0 +1,117 @@
+{
+  "updatedAt": "2026-02-28T02:31:14+09:00",
+  "agents": [
+    {
+      "id": "bilard",
+      "name": "빌라드",
+      "emoji": "👑",
+      "status": "running",
+      "currentTask": "작업 중...",
+      "lastCommit": "feat: remove premium content section — 전체 감명 콘텐츠 블록 제거, 결제 UI 유지",
+      "lastCommitTime": "2026-02-28T02:20:39+09:00"
+    },
+    {
+      "id": "cael",
+      "name": "케일",
+      "emoji": "🔨",
+      "status": "done",
+      "currentTask": "대기 중",
+      "lastCommit": "fix: remove residual modal-features, polarity-sign, pillar-12-unsung",
+      "lastCommitTime": "2026-02-27T18:30:00+09:00"
+    },
+    {
+      "id": "quinn",
+      "name": "퀸",
+      "emoji": "🔍",
+      "status": "done",
+      "currentTask": "대기 중",
+      "lastCommit": null,
+      "lastCommitTime": null
+    },
+    {
+      "id": "dorian",
+      "name": "도리안",
+      "emoji": "📊",
+      "status": "idle",
+      "currentTask": "대기 중",
+      "lastCommit": null,
+      "lastCommitTime": null
+    },
+    {
+      "id": "mira",
+      "name": "미라",
+      "emoji": "✍️",
+      "status": "idle",
+      "currentTask": "대기 중",
+      "lastCommit": null,
+      "lastCommitTime": null
+    },
+    {
+      "id": "lyra",
+      "name": "리라",
+      "emoji": "🌿",
+      "status": "idle",
+      "currentTask": "대기 중",
+      "lastCommit": "ux: Lyra spec — accordion hierarchy + onboarding flow",
+      "lastCommitTime": "2026-02-27T17:00:00+09:00"
+    },
+    {
+      "id": "knox",
+      "name": "녹스",
+      "emoji": "⚙️",
+      "status": "done",
+      "currentTask": "대기 중",
+      "lastCommit": "chore: auto status update 2026-02-28 01:12",
+      "lastCommitTime": "2026-02-28 01:12:07 +0900"
+    },
+    {
+      "id": "rex",
+      "name": "렉스",
+      "emoji": "🛡️",
+      "status": "idle",
+      "currentTask": "대기 중",
+      "lastCommit": null,
+      "lastCommitTime": null
+    }
+  ],
+  "recentLogs": [
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "feat: remove premium content section — 전체 감명 콘텐츠 블록 제거, 결제 UI 유지",
+      "time": "2026-02-28T02:20:39+09:00"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "deploy: Momentor 결제 연동 prod 배포",
+      "time": "2026-02-28T02:11:36+09:00"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "feat: Lemon Squeezy 결제 연동 구현 (openPayModal, checkPaymentReturn, unlockPremiumContent, restorePremiumState)",
+      "time": "2026-02-28T00:21:03+09:00"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "content: accordion copy v4.2 — realistic style + environments frame",
+      "time": "2026-02-27T19:07:33+09:00"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "fix: remove residual modal-features, polarity-sign, pillar-12-unsung",
+      "time": "2026-02-27T17:40:42+09:00"
+    }
+  ],
+  "deployUrl": "https://fourpillars-eosin.vercel.app",
+  "nextTask": null,
+  "queue": []
+}
