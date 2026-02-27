@@ -1,0 +1,115 @@
+{
+  "updatedAt": "2026-02-27T19:50:48+09:00",
+  "agents": [
+    {
+      "id": "bilard",
+      "name": "빌라드",
+      "emoji": "👑",
+      "status": "idle",
+      "currentTask": null,
+      "lastCommit": "content: accordion copy v4.2 — realistic style + environments frame",
+      "lastCommitTime": "2026-02-27 19:07:33 +0900"
+    },
+    {
+      "id": "cael",
+      "name": "케일",
+      "emoji": "🔨",
+      "status": "idle",
+      "currentTask": null,
+      "lastCommit": "fix: remove residual modal-features, polarity-sign, pillar-12-unsung",
+      "lastCommitTime": "2026-02-27T18:30:00+09:00"
+    },
+    {
+      "id": "quinn",
+      "name": "퀸",
+      "emoji": "🔍",
+      "status": "idle",
+      "currentTask": null,
+      "lastCommit": null,
+      "lastCommitTime": null
+    },
+    {
+      "id": "dorian",
+      "name": "도리안",
+      "emoji": "📊",
+      "status": "idle",
+      "currentTask": null,
+      "lastCommit": null,
+      "lastCommitTime": null
+    },
+    {
+      "id": "mira",
+      "name": "미라",
+      "emoji": "✍️",
+      "status": "idle",
+      "currentTask": null,
+      "lastCommit": null,
+      "lastCommitTime": null
+    },
+    {
+      "id": "lyra",
+      "name": "리라",
+      "emoji": "🌿",
+      "status": "idle",
+      "currentTask": null,
+      "lastCommit": "ux: Lyra spec — accordion hierarchy + onboarding flow",
+      "lastCommitTime": "2026-02-27T17:00:00+09:00"
+    },
+    {
+      "id": "knox",
+      "name": "녹스",
+      "emoji": "⚙️",
+      "status": "running",
+      "currentTask": "에이전트 대시보드 Phase 2 실데이터 연동 중",
+      "lastCommit": "feat: agent dashboard initial build",
+      "lastCommitTime": "2026-02-27T19:48:00+09:00"
+    },
+    {
+      "id": "rex",
+      "name": "렉스",
+      "emoji": "🛡️",
+      "status": "idle",
+      "currentTask": null,
+      "lastCommit": null,
+      "lastCommitTime": null
+    }
+  ],
+  "recentLogs": [
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "content: accordion copy v4.2 — realistic style + environments frame",
+      "time": "2026-02-27 19:07:33 +0900"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "fix: remove residual modal-features, polarity-sign, pillar-12-unsung",
+      "time": "2026-02-27 17:40:42 +0900"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "fix: card simplify + modal cleanup + birth hour unknown",
+      "time": "2026-02-27 17:37:53 +0900"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "feat: accordion preview + share card + western copy",
+      "time": "2026-02-27 17:11:43 +0900"
+    },
+    {
+      "agentId": "bilard",
+      "agentName": "빌라드",
+      "agentEmoji": "👑",
+      "message": "ux: Lyra spec — accordion hierarchy + onboarding flow",
+      "time": "2026-02-27 16:25:24 +0900"
+    }
+  ],
+  "deployUrl": "https://fourpillars-eosin.vercel.app"
+}
