@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-28T07:37:50+09:00",
+  "updatedAt": "2026-02-28T07:39:52+09:00",
   "agents": [
     {
       "id": "bilard",
       "name": "빌라드",
       "emoji": "👑",
-      "status": "done",
-      "currentTask": "대기 중",
+      "status": "running",
+      "currentTask": "작업 중...",
       "lastCommit": "fix: 전체 감명 완전 제거 — renderPaidSections/i18n/modal 잔재 모두 삭제",
       "lastCommitTime": "2026-02-28T03:12:50+09:00"
     },
