@@ -556,3 +556,181 @@ Problem:
 [ok] 상태 변경: ⚙️ 녹스 → running
 [ok] status.json 저장: /Users/bilard/Projects/dashboard/data/status.json
 [ok] git push 완료 → Vercel 자동 배포 트리거
+[info] 활성 세션 에이전트: {'knox', 'main'}
+Traceback (most recent call last):
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 239, in <module>
+    main()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 168, in main
+    data = load_status()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 123, in load_status
+    return json.load(f)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+[warn] openclaw sessions 실패: Failed to read config at /Users/bilard/.openclaw/openclaw.json SyntaxError: JSON5: invalid character 'i' at 1:3
+    at syntaxError (/usr/local/lib/node_modules/openclaw/node_modules/json5/lib/parse.js
+[info] 활성 세션 에이전트: set()
+Traceback (most recent call last):
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 239, in <module>
+    main()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 168, in main
+    data = load_status()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 123, in load_status
+    return json.load(f)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+[warn] openclaw sessions 실패: Failed to read config at /Users/bilard/.openclaw/openclaw.json SyntaxError: JSON5: invalid character 'i' at 1:3
+    at syntaxError (/usr/local/lib/node_modules/openclaw/node_modules/json5/lib/parse.js
+[info] 활성 세션 에이전트: set()
+Traceback (most recent call last):
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 239, in <module>
+    main()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 168, in main
+    data = load_status()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 123, in load_status
+    return json.load(f)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+[warn] openclaw sessions 실패: Failed to read config at /Users/bilard/.openclaw/openclaw.json SyntaxError: JSON5: invalid character 'i' at 1:3
+    at syntaxError (/usr/local/lib/node_modules/openclaw/node_modules/json5/lib/parse.js
+[info] 활성 세션 에이전트: set()
+Traceback (most recent call last):
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 239, in <module>
+    main()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 168, in main
+    data = load_status()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 123, in load_status
+    return json.load(f)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+[warn] openclaw sessions 실패: Failed to read config at /Users/bilard/.openclaw/openclaw.json SyntaxError: JSON5: invalid character 'i' at 1:3
+    at syntaxError (/usr/local/lib/node_modules/openclaw/node_modules/json5/lib/parse.js
+[info] 활성 세션 에이전트: set()
+Traceback (most recent call last):
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 239, in <module>
+    main()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 168, in main
+    data = load_status()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 123, in load_status
+    return json.load(f)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+[info] 활성 세션 에이전트: {'main'}
+Traceback (most recent call last):
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 239, in <module>
+    main()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 168, in main
+    data = load_status()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 123, in load_status
+    return json.load(f)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+[info] 활성 세션 에이전트: {'main'}
+Traceback (most recent call last):
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 239, in <module>
+    main()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 168, in main
+    data = load_status()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 123, in load_status
+    return json.load(f)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+[info] 활성 세션 에이전트: {'quinn', 'main'}
+Traceback (most recent call last):
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 239, in <module>
+    main()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 168, in main
+    data = load_status()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 123, in load_status
+    return json.load(f)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+[info] 활성 세션 에이전트: {'main', 'quinn'}
+Traceback (most recent call last):
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 239, in <module>
+    main()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 168, in main
+    data = load_status()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 123, in load_status
+    return json.load(f)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+[info] 활성 세션 에이전트: {'quinn', 'main'}
+Traceback (most recent call last):
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 239, in <module>
+    main()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 168, in main
+    data = load_status()
+  File "/Users/bilard/Projects/dashboard/auto_update_status.py", line 123, in load_status
+    return json.load(f)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)

@@ -1,7 +1,5 @@
-[fix] 케일 currentTask 초기화
-[fix] 녹스 lastCommit → chore: auto status update 2026-02-28 01:12
 {
-  "updatedAt": "2026-02-28T01:12:07+09:00",
+  "updatedAt": "2026-02-28T01:33:18+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -26,7 +24,7 @@
       "name": "퀸",
       "emoji": "🔍",
       "status": "idle",
-      "currentTask": null,
+      "currentTask": "대기 중",
       "lastCommit": null,
       "lastCommitTime": null
     },
@@ -35,7 +33,7 @@
       "name": "도리안",
       "emoji": "📊",
       "status": "idle",
-      "currentTask": null,
+      "currentTask": "대기 중",
       "lastCommit": null,
       "lastCommitTime": null
     },
@@ -44,7 +42,7 @@
       "name": "미라",
       "emoji": "✍️",
       "status": "idle",
-      "currentTask": null,
+      "currentTask": "대기 중",
       "lastCommit": null,
       "lastCommitTime": null
     },
@@ -53,7 +51,7 @@
       "name": "리라",
       "emoji": "🌿",
       "status": "idle",
-      "currentTask": null,
+      "currentTask": "대기 중",
       "lastCommit": "ux: Lyra spec — accordion hierarchy + onboarding flow",
       "lastCommitTime": "2026-02-27T17:00:00+09:00"
     },
@@ -71,7 +69,7 @@
       "name": "렉스",
       "emoji": "🛡️",
       "status": "idle",
-      "currentTask": null,
+      "currentTask": "대기 중",
       "lastCommit": null,
       "lastCommitTime": null
     }
