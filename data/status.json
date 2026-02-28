@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-28T15:20:42+09:00",
+  "updatedAt": "2026-02-28T15:22:44+09:00",
   "agents": [
     {
       "id": "bilard",
       "name": "빌라드",
       "emoji": "👑",
-      "status": "running",
-      "currentTask": "작업 중...",
+      "status": "done",
+      "currentTask": "대기 중",
       "lastCommit": "feat: user data persistence - save/load/reset",
       "lastCommitTime": "2026-02-28T09:12:02+09:00"
     },
