@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T16:45:58+09:00",
+  "updatedAt": "2026-02-28T16:47:59+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -41,8 +41,8 @@
       "id": "mira",
       "name": "미라",
       "emoji": "✍️",
-      "status": "running",
-      "currentTask": "작업 중...",
+      "status": "done",
+      "currentTask": "대기 중",
       "lastCommit": null,
       "lastCommitTime": null
     },
