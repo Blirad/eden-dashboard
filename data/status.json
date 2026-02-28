@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T16:37:51+09:00",
+  "updatedAt": "2026-02-28T16:39:52+09:00",
   "agents": [
     {
       "id": "bilard",
@@ -32,8 +32,8 @@
       "id": "dorian",
       "name": "도리안",
       "emoji": "📊",
-      "status": "done",
-      "currentTask": "대기 중",
+      "status": "running",
+      "currentTask": "작업 중...",
       "lastCommit": null,
       "lastCommitTime": null
     },
@@ -50,8 +50,8 @@
       "id": "lyra",
       "name": "리라",
       "emoji": "🌿",
-      "status": "idle",
-      "currentTask": "대기 중",
+      "status": "running",
+      "currentTask": "작업 중...",
       "lastCommit": "ux: Lyra spec — accordion hierarchy + onboarding flow",
       "lastCommitTime": "2026-02-27T17:00:00+09:00"
     },
