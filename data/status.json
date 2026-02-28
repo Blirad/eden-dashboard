@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-28T13:22:58+09:00",
+  "updatedAt": "2026-02-28T13:25:00+09:00",
   "agents": [
     {
       "id": "bilard",
       "name": "빌라드",
       "emoji": "👑",
-      "status": "done",
-      "currentTask": "대기 중",
+      "status": "running",
+      "currentTask": "작업 중...",
       "lastCommit": "feat: user data persistence - save/load/reset",
       "lastCommitTime": "2026-02-28T09:12:02+09:00"
     },
@@ -32,8 +32,8 @@
       "id": "dorian",
       "name": "도리안",
       "emoji": "📊",
-      "status": "done",
-      "currentTask": "대기 중",
+      "status": "running",
+      "currentTask": "작업 중...",
       "lastCommit": null,
       "lastCommitTime": null
     },
